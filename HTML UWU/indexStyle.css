@@ -1,0 +1,126 @@
+body {
+  background-color:rgb(255, 255, 255);
+}
+
+.e_annie {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+    margin-right: 30px;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  p {
+    font-family: sans-serif;
+  }
+  
+  .oop {
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+  }
+  
+  .border-test {
+    border-color: rgb(0, 0, 0);
+    border-width: 50px;
+    border-style: solid;
+  }
+
+
+
+  
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(223, 128, 128) transparent transparent transparent;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(223, 128, 128);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px /*dotted*/ rgb(223, 128, 128);
+    /* text-align: center; */
+    top:50%;
+    left:50%;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+
+
+
+
+
+  
+  
+  .video_tooltip .video_tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(223, 128, 128) transparent transparent transparent;
+  }
+  
+  .video_tooltip .video_tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(223, 128, 128);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    /* padding: 5px 0; */
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  
+  .video_tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgb(223, 128, 128);
+    /* text-align: center; */
+  }
+  
+  .video_tooltip:hover .video_tooltiptext {
+    visibility: visible;
+  }
+
+  
+  
+
+
+
+  
